@@ -1,0 +1,13 @@
+//
+//  Release.xcconfig
+//  XcodeprojBuildSettingsDemo
+//
+//  Created by Maksym Grebenets on 22/9/17.
+//  Copyright © 2017 Test. All rights reserved.
+//
+
+#include "Base.xcconfig"
+
+COM_RELEASE_BUNDLE_ID_PROD_SFX =
+COM_RELEASE_BUNDLE_ID_PREFIX_PROD = $(COM_BUNDLE_ID_BASE)$(COM_RELEASE_BUNDLE_ID_PROD_SFX)
+COM_RELEASE_PROVISIONING_PROFILE_SPECIFIER_PROD = $(COM_RELEASE_BUNDLE_ID_PREFIX_PROD)

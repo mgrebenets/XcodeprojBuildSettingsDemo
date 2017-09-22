@@ -1,0 +1,14 @@
+//
+//  Base.xcconfig
+//  XcodeprojBuildSettingsDemo
+//
+//  Created by Maksym Grebenets on 22/9/17.
+//  Copyright © 2017 Test. All rights reserved.
+//
+
+COM_BUNDLE_ID_PREFIX =
+
+COM_BUNDLE_ID_BASE = $(COM_BUNDLE_ID_PREFIX)au.com.company.app
+COM_PROD_SFX = .prod
+COM_BUNDLE_ID_BASE_PROD = $(COM_BUNDLE_ID_BASE)$(COM_PROD_SFX)
+COM_BUNDLE_ID_PROD = $(COM_BUNDLE_ID_BASE_PROD)
